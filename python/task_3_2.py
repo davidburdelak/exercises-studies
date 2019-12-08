@@ -1,5 +1,5 @@
 """
-Write a program that accepts a text file called text.txt as the input and creates a file in which the last 12 characters are repeated in each line. E.g:
+Task: Write a program that accepts a text file called text.txt as the input and creates a file in which the last 12 characters are repeated in each line. E.g:
 
 File text.txt:
 
