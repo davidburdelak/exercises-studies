@@ -1,8 +1,10 @@
-"""Task: Write a script that asks the user about:
+"""
+Task: Write a script that asks the user about:
 • range of numbers to draw, e.g. "Specify the range of numbers to draw from 1 to: ..."
 • number of drawn numbers, e.g. "Enter how many numbers are to be drawn from the given range."
 Save the drawn numbers to the wylosowane.txt file so that each number is on its own line. After executing the script, display the information about the number of lines in the wylosowane.txt file.
-Include the random library in the script for the draw.""" 
+Include the random library in the script for the draw.
+""" 
 
 import random
 
