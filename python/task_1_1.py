@@ -1,4 +1,16 @@
-#DEVELOPED BY DAWID BURDELAK
+"""
+Task: Please write a script that displays the menu of the following form:
+
+*******************CALCULATOR******************
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+0 - End
+
+It will then prompt you which option to choose, print the selected option number, and exit.
+"""
+#DEVELOPED BY DAVID BURDELAK
 print ("*******************CALCULATOR*******************")
 
 def menu():
