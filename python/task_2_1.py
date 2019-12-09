@@ -1,31 +1,43 @@
+"""
+Task: Please extend the script from task 1_2. so that options appear in the calculator
+
+5 - Power 
+6 - Root
+
+Before displaying the menu, the program should ask for two numbers (data). Then displays the menu and selection of options. Depending on the option selected, he should now apply the appropriate arithmetic operation to the numbers given at the beginning (data) and display the result.
+
+Perform arithmetic operations using the functions learned.
+
+Use the if statement to protect yourself from dividing by zero.
+"""
 print("###CALCULATOR###")
-def addition (a,b):
-    return a + b
+def addition (number_a,number_b):
+    return number_a + number_b
 
 def subtraction (a,b):
-    return a - b
+    return number_a - number_b
 
-def multiplication (a,b):
-    return a * b
+def multiplication (number_a,number_b):
+    return number_a * number_b
 
-def division (a,b):
+def division (number_a,number_b):
     if b==0:
         print("Can't action")
     else:
-        return a / b
+        return number_a / number_b
 
-def exponentiation (a,b):
-    return a ** b
+def exponentiation (number_a,number_b):
+    return number_a ** number_b
 
-def root (a):
+def root (number_a):
     import math
-    return math.sqrt(a)
+    return math.sqrt(number_a)
     
 out = False
 while out == False:
 
-    a = int(input("Enter A:"))
-    b = int(input("Enter B:"))
+    number_a = int(input("Enter number A:"))
+    number_b = int(input("Enter number B:"))
 
     print("###Menu###")
     print("1 - Addition")
@@ -49,22 +61,22 @@ while out == False:
             select = input("Select position from menu")    
  
     if select == '1':
-         print(addition(a,b))
+         print(addition(number_a,number_b))
  
     elif select == '2':
-        print(subtraction(a,b))
+        print(subtraction(number_a,number_b))
  
     elif select == '3':
-         print(multiplication(a,b))
+         print(multiplication(number_a,number_b))
  
     elif select == '4':
-         print(division(a,b))
+         print(division(number_a,number_b))
 
     elif select == '5':
-         print(exponentiation(a,b))
+         print(exponentiation(number_a,number_b))
 
     elif select == '6':
-         print(root(a))
+         print(root(number_a))
 
     else:
      print("ERROR, Select position from menu!")
