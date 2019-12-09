@@ -1,3 +1,6 @@
+"""
+Extend the script from task 1_2 so that option 5 - Factorial appears in the calculator and the program uses the recursive loop to calculate the factorial from the given number. Add option 6 - Power and 7 - Root.
+"""
 #DEVELOPED BY DAWID BURDELAK
 import math
 
