@@ -10,7 +10,7 @@
 
 ## Technologies
 
-- C++
+- [C++](https://github.com/davidburdelak/exercises-studies/tree/master/c%2B%2B)
 - C#
 - [Python](https://github.com/davidburdelak/exercises-studies/tree/master/python)
 
