@@ -1,0 +1,16 @@
+﻿d
+Anna
+Kowalska
+4,5
+c
+Antoni
+Kowalski
+5,5
+d
+Beata
+Nowak
+3
+c
+Robert
+Nowak
+2
