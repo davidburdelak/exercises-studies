@@ -1,10 +1,10 @@
 """
-Task: Sergeant Thomson decided to censor the letters his soldiers receive. This censorship involves removing every third line from the letter. Help the sergeant: write a program that receives a text file with a letter and creates its censored version - letter_censor.txt.
+Task: Sergeant Thomson decided to censor the letters his soldiers receive. This censorship involves removing every third line from the letter. Help the sergeant: write a program that receives a text file with a letter and creates its censored version - task_5_1_letter_censor.txt.
 
-The letter.txt file exists before, and the letter_censor.txt file is created by the program.
+The task_5_1_letter.txt file exists before, and the task_5_1_letter_censor.txt file is created by the program.
 """
-file_write = open('letter_censor.txt','w')
-file_read = open('letter.txt','r')
+file_write = open('task_5_1_letter_censor.txt','w')
+file_read = open('task_5_1_letter.txt','r')
 i=1
 
 all_lines = file_read.readlines()
