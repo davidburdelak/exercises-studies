@@ -1,5 +1,10 @@
-file_write = open('list_cen.txt','w')
-file_read = open('list.txt','r')
+"""
+Task: Sergeant Thomson decided to censor the letters his soldiers receive. This censorship involves removing every third line from the letter. Help the sergeant: write a program that receives a text file with a letter and creates its censored version - letter_censor.txt.
+
+The letter.txt file exists before, and the letter_censor.txt file is created by the program.
+"""
+file_write = open('letter_censor.txt','w')
+file_read = open('letter.txt','r')
 i=1
 
 all_lines = file_read.readlines()
