@@ -3,6 +3,7 @@ Task: Sergeant Thomson decided to censor the letters his soldiers receive. This 
 
 The task_5_1_letter.txt file exists before, and the task_5_1_letter_censor.txt file is created by the program.
 """
+
 file_write = open('task_5_1_letter_censor.txt','w')
 file_read = open('task_5_1_letter.txt','r')
 i=1
