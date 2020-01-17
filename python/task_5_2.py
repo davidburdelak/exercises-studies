@@ -1,3 +1,9 @@
+"""
+An input file with grades is given: - task_5_2_school_grade.txt.
+Task: Write a program that creates two files in CSV format, one with boys grades (c), the other with girls grades (d). Entries in each file should be in the form:
+Robert;Nowak;2
+"""
+
 boys_file_write = open('task_5_2_boys_school_grade.csv','w')
 girls_file_write = open('task_5_2_girls_school_grade.csv','w')
 pupils_file_read = open('task_5_2_school_grade.txt','r')
