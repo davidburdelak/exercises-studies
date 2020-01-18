@@ -1,3 +1,7 @@
+"""
+Write a program that searches the text of all occurrences of a search term with one error allowed, consisting of replacing a single letter with another. For example, if the query is 'szyszki' and the text 'sdyszki' is in the text, it should be found. As the call parameter we give the searched word and the search is performed in this file.
+"""
+
 import re
 
 word = input("Enter word: ")
