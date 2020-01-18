@@ -1,3 +1,7 @@
+"""
+A text file is given - task_4_1_vulgar_text. Write a program that will rewrite all obscene words in Polish into a new file. Use regular expressions to catch as many profanity as possible (consider the word variation).
+"""
+
 import re
 file_read=open('task_4_1_vulgar_text.txt','r')
 file_write=open('task_4_1_indecent_words.txt','w')
